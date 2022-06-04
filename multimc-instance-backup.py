@@ -4,7 +4,7 @@ from os import path
 
 # To have this script automatically run when a MultiMC instance shuts down,
 # place this script in the folder you wish to back up to and go to MultiMC -> Settings -> Custom Commands -> put this in Post-exit Command:
-# python3 path/to/multimc-instance-backup.py $INST_NAME $INST_MC_DIR
+# python3 path/to/multimc-instance-backup.py "$INST_NAME" "$INST_MC_DIR"
 # Pro tip: place the script in a cloud folder to automagically back up your instance to your cloud provider :)
 
 print("----------------------------------------------------------------")
